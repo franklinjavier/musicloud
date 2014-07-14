@@ -1,0 +1,55 @@
+.playlist {
+    margin: 30px;
+    min-width: 700px;
+}
+
+.track { 
+    width: 100%;
+    line-height: 18px;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font: 14px arial;
+
+    .artwork { 
+        float: left;
+        margin-right: 10px;
+    }
+
+    $play-size: 40px;
+    .play { 
+        float: left;
+        width: $play-size;
+        height: $play-size;
+        border-radius: 50%;
+        background-color: #6C6;
+        position: relative;
+    }
+
+    .track-detail { 
+        margin-left: 60px;
+    }
+
+    .track-name { 
+        color: #777;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .track-user-name { 
+        color: #A2A2A2;
+    }
+
+    .track-details {
+        color: #A2A2A2;
+        font-size: 12px;
+        margin-top: 5px;
+        span { margin-right: 5px; }
+        i { 
+            font-style: normal; 
+            margin-right: 2px;
+        }
+    }
+
+}
+

@@ -1,0 +1,27 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<!--[if IE 10]><html class="ie10" lang="en" > <![endif]-->
+<html>
+<head>
+  <title>Soundify</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="/css/app.css" />
+  <link rel="stylesheet" type="text/css" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" />
+
+</head>
+
+<body ng-app="myApp">
+
+    <a ui-sref="home">Home</a> /
+    <a ui-sref="search">Search</a>
+
+    <div ui-view></div>
+
+    <playlist></playlist>
+
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+    <script src="/js/bundle.js"></script>
+
+</body>
+</html>

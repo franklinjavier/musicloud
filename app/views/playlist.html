@@ -1,0 +1,19 @@
+<div class="playlist">
+    <ul> 
+        <li ng-repeat="track in tracks">
+            <div class="track">
+                <div class="play icon"><i class="fa fa-play"></i></div>
+                <div class="track-detail">
+                    <div class="track-user-name">{{track.user.name}}</div>
+                    <div class="track-name">{{track.title}}</div>
+                    <div class="track-details">
+                        <span title="Tempo de duração"><i class="fa fa-clock-o"></i> 2:50</span>
+                        <span title="Quantidade de play"><i class="fa fa-play"></i> 1002</span>
+                        <span title="Quantidade de curtidas"><i class="fa fa-heart"></i> 202</span>
+                        <span title="Gêneros"><i class="fa fa-tag"></i> Dubstep, Electro House, Psy</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

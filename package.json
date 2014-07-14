@@ -1,0 +1,38 @@
+{
+  "name": "Musicloud",
+  "version": "0.0.1",
+  "description": "Listen your favorites musics over most music services",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/franklinjavier/musicloud.git"
+  },
+  "author": "franklinjavier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franklinjavier/musicloud/issues"
+  },
+  "devDependencies": {
+    "connect-livereload": "~0.4.0",
+    "gulp-concat": "~2.2.0",
+    "gulp-plumber": "~0.6.2",
+    "gulp-clean": "~0.3.0",
+    "tiny-lr": "0.0.7",
+    "gulp-embedlr": "~0.5.2",
+    "gulp-util": "~2.2.16",
+    "gulp-livereload": "~2.0.0",
+    "express": "~4.4.1",
+    "gulp-jshint": "~1.6.2",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp": "~3.7.0",
+    "gulpify": "~0.1.1",
+    "gulp-sass": "~0.7.2",
+    "brfs": "~1.1.1",
+    "angular": "~1.2.16",
+    "ui-router": "0.0.1",
+    "node-bourbon": "~1.2.3",
+    "node-neat": "~1.3.0"
+  }
+}
